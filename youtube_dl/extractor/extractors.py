@@ -734,6 +734,7 @@ from .neteasemusic import (
     NetEaseMusicProgramIE,
     NetEaseMusicDjRadioIE,
 )
+from .watchnebula import WatchNebulaIE
 from .newgrounds import (
     NewgroundsIE,
     NewgroundsPlaylistIE,
@@ -1556,7 +1557,7 @@ from .youtube import (
     YoutubeRecommendedIE,
     YoutubeSearchDateIE,
     YoutubeSearchIE,
-    #YoutubeSearchURLIE,
+    # YoutubeSearchURLIE,
     YoutubeSubscriptionsIE,
     YoutubeTruncatedIDIE,
     YoutubeTruncatedURLIE,
